@@ -14,10 +14,6 @@ public class Fact {
         this.id = id;
         this.description = description;
         this.evals = new HashMap<>();
-        this.evals.put("family", null);
-        this.evals.put("money", null);
-        this.evals.put("comfort", null);
-        this.evals.put("luxury", null);
     }
 
     public Set<String> getIdSet() {
