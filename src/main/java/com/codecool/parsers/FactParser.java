@@ -8,20 +8,16 @@ import org.w3c.dom.NodeList;
 
 public class FactParser extends XMLParser {
 
-    private final String XML_PATH = getClass().getClassLoader().getResource("xmls/Facts.xml").getPath();
-
     private FactRepository factRepository;
     private NodeList nodeList;
 
-    public FactParser() {
+    public FactParser(String xmlPath) {
         this.factRepository = new FactRepository();
+        loadXmlDocument(xmlPath);
+        parseXmlDocument();
     }
 
     public FactRepository getFactRepository() {
-
-        loadXmlDocument(XML_PATH);
-        parseXmlDocument();
-        
         return this.factRepository;
     }
 

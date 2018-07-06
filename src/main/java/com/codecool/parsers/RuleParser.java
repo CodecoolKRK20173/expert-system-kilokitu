@@ -15,20 +15,16 @@ import org.w3c.dom.NodeList;
 
 public class RuleParser extends XMLParser {
 
-    private final String XML_PATH = getClass().getClassLoader().getResource("xmls/Rules.xml").getPath();
-
     private RuleRepository ruleRepository;
     private NodeList nodeList;
 
-    public RuleParser() {
+    public RuleParser(String xmlPath) {
         this.ruleRepository = new RuleRepository();
+        loadXmlDocument(xmlPath);
+        parseXmlDocument();
     }
 
     public RuleRepository getRuleRepository() {
-
-        loadXmlDocument(XML_PATH);
-        parseXmlDocument();
-        
         return this.ruleRepository;
     }
 
