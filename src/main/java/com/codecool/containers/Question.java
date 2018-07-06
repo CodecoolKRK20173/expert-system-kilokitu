@@ -1,5 +1,7 @@
 package com.codecool.containers;
 
+import java.util.InputMismatchException;
+
 public class Question {
 
     private String id;
@@ -24,7 +26,7 @@ public class Question {
         return this.answer;
     }
 
-    public boolean getEvaluatedAnswer(String input) {
+    public boolean getEvaluatedAnswer(String input) throws InputMismatchException {
         return this.answer.evaluateAnswerByInput(input);
     }
 }
