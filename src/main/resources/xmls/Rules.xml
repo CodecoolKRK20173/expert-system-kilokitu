@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rules>
+    <Rule id="money">
+        <Question>Are money an issue?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="no"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="yes"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="internet">
+        <Question>Will you be using internet applications extensively?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="controllers">
+        <Question>What type of games would you like to play?</Question>
+        <Answer>
+            <Selection value="true">
+                <MultipleValue value="fps,rts,rpg,mmo,point 'n click,moba"/>
+            </Selection>
+            <Selection value="false">
+                <MultipleValue value="none,racing,fighting,platformers,third-person,sport"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="gaming">
+        <Question>How important is gaming to you?</Question>
+        <Answer>
+            <Selection value="true">
+                <MultipleValue value="very important,important,fairly important"/>
+            </Selection>
+            <Selection value="false">
+                <MultipleValue value="not important,somewhat important"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="mobility">
+        <Question>Is mobility important?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="uhd">
+        <Question>Do you want to watch UHD Blu-ray movies?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+</Rules>

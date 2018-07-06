@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Facts>
+    <Fact id="hepc">
+        <Description value="High-end desktop computer"/>
+        <Evals>
+            <Eval id="money">true</Eval>
+            <Eval id="internet">true</Eval>
+            <Eval id="controllers">true</Eval>
+            <Eval id="gaming">true</Eval>
+            <Eval id="mobility">false</Eval>
+            <Eval id="uhd">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="hepcuhd">
+        <Description value="High-end desktop computer with UHD Blu-ray player"/>
+        <Evals>
+            <Eval id="money">true</Eval>
+            <Eval id="internet">true</Eval>
+            <Eval id="controllers">true</Eval>
+            <Eval id="gaming">true</Eval>
+            <Eval id="mobility">false</Eval>
+            <Eval id="uhd">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="lepc">
+        <Description value="Low-end desktop computer"/>
+        <Evals>
+            <Eval id="money">false</Eval>
+            <Eval id="internet">true</Eval>
+            <Eval id="controllers">true</Eval>
+            <Eval id="gaming">true</Eval>
+            <Eval id="mobility">false</Eval>
+            <Eval id="uhd">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="htpc">
+        <Description value="Home-theatre desktop computer"/>
+        <Evals>
+            <Eval id="money">false</Eval>
+            <Eval id="internet">false</Eval>
+            <Eval id="controllers">true</Eval>
+            <Eval id="gaming">true</Eval>
+            <Eval id="mobility">false</Eval>
+            <Eval id="uhd">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="glaptop">
+        <Description value="Gaming laptop"/>
+        <Evals>
+            <Eval id="money">true</Eval>
+            <Eval id="internet">true</Eval>
+            <Eval id="controllers">true</Eval>
+            <Eval id="gaming">true</Eval>
+            <Eval id="mobility">true</Eval>
+            <Eval id="uhd">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="laptop">
+        <Description value="Laptop"/>
+        <Evals>
+            <Eval id="money">false</Eval>
+            <Eval id="internet">true</Eval>
+            <Eval id="controllers">true</Eval>
+            <Eval id="gaming">false</Eval>
+            <Eval id="mobility">true</Eval>
+            <Eval id="uhd">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="macbook">
+        <Description value="Apple Macbook"/>
+        <Evals>
+            <Eval id="money">true</Eval>
+            <Eval id="internet">true</Eval>
+            <Eval id="controllers">false</Eval>
+            <Eval id="gaming">false</Eval>
+            <Eval id="mobility">true</Eval>
+            <Eval id="uhd">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="ps4">
+        <Description value="Playstation 4"/>
+        <Evals>
+            <Eval id="money">false</Eval>
+            <Eval id="internet">false</Eval>
+            <Eval id="controllers">false</Eval>
+            <Eval id="gaming">true</Eval>
+            <Eval id="mobility">false</Eval>
+            <Eval id="uhd">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="xbox">
+        <Description value="Xbox one"/>
+        <Evals>
+            <Eval id="money">false</Eval>
+            <Eval id="internet">false</Eval>
+            <Eval id="controllers">false</Eval>
+            <Eval id="gaming">true</Eval>
+            <Eval id="mobility">false</Eval>
+            <Eval id="uhd">true</Eval>
+        </Evals>
+    </Fact>
+</Facts>
