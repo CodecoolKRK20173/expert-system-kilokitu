@@ -7,8 +7,8 @@ public class Main {
     
     public static void main(String[] args) {
         View view = new View();
-        String factsXmlPath = "xmls/Facts.xml";
-        String rulesXmlPath = "xmls/Rules.xml";
+        String factsXmlPath = Main.class.getResource("/xmls/Facts.xml").getPath();
+        String rulesXmlPath = Main.class.getResource("/xmls/Rules.xml").getPath();
         ESProvider esProvider = new ESProvider(new FactParser(factsXmlPath), new RuleParser(rulesXmlPath));
 
         view.print("\nWelcome to computer hardware advisor. Please answer some questions.\n");
